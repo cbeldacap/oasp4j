@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('go to samples') {
       steps {
         dir(path: '/samples')
       }
